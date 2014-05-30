@@ -1,0 +1,2 @@
+insert into trb_header_po("label", "cut_no", "active") values('Inventory_control.lbl', '407461', 0);
+insert into trb_header_po("label", "cut_no", "active") values('Inventory_control.lbl', '407462', 0);

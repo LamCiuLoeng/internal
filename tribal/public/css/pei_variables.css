@@ -1,0 +1,25 @@
+.shade{
+	position: absolute !important;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	display: none;
+	background-color: #111111;
+	filter: alpha(opacity=80);
+	-moz-opacity: 0.8;
+	opacity: 0.8;
+}
+
+.item_variable {
+	position: absolute !important;
+	left: 45px;
+	top: 45px;
+	z-index: 2;
+	border: 1px solid #4e7596;
+	background-color: #fff;
+	margin: 100px auto;
+	padding: 0px;
+	display: none;
+	width: 1000px;
+	text-align: right;
+}

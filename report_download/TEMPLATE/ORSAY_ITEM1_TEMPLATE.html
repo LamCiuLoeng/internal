@@ -1,0 +1,54 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <style type="text/css">
+            @font-face {font-family: myfont;src: url(%(font_path)s);}
+            tr, td{padding:0;margin:0;border:0;}
+            table{-pdf-keep-in-frame-mode:overflow;font-family:myfont;margin:0;padding:0;}
+            .part1{line-height:20px;margin:10px 20px;}
+            .material1{line-height:20px;width:80px;margin:0 0 0 20px;}
+            .material2{line-height:20px;margin:0 20px 0 10px;}
+        </style>
+    </head>
+    <body>
+        <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td valign="top" style="width:350px;border:1px solid black;text-align:center;">
+                    <table border="0" cellspacing="0" cellpadding="0">
+                        <tr><td style="line-height:100px;border-bottom:1px solid #000;">&nbsp;</td></tr>
+                        <tr><td>
+                                <div style="line-height:60px;">&nbsp;</div>
+                                <div style="line-height:30px;margin:0 70px;padding:15px 10px 20px 10px;border:1px solid #000;font-weight:bold;font-size:32px;">SIZE %(size1)s</div>
+                                <div style="line-height:40px;">&nbsp;</div>
+                                <span style="line-height:30px;font-size:26px;">EUR %(size2)s</span><br/>
+                                <span style="line-height:30px;font-size:26px;">SLO %(size3)s</span>
+                                <div style="line-height:40px;">&nbsp;</div>
+                            </td></tr>
+                        <tr><td style="line-height:20px;margin:0 60px;font-size:26px;">%(article)s</td></tr>
+                        <tr><td>
+                                <div style="line-height:70px;">&nbsp;</div>
+                                <span style="line-height:30px;font-size:32px;font-weight:bold;">%(number1)s/%(number2)s</span><br/>
+                                <span style="line-height:30px;font-size:26px;">%(number3)s</span>
+                                <div style="line-height:40px;">&nbsp;</div>
+                            </td></tr>
+                        <tr><td style="font-size:26px;">%(collection)s</td></tr>
+                        <tr><td style="line-height:30px;">&nbsp;</td></tr>
+                        <tr><td style="font-size:26px;">Made in %(location)s</td></tr>
+                        <tr><td style="line-height:30px;">&nbsp;</td></tr>
+                        <tr><td style="line-height:240px;font-size:30px;">%(trademark)s</td></tr>
+                    </table>
+                </td>
+                <td width="40">&nbsp;</td>
+                <td valign="top" style="width:350px;border:1px solid black;font-size:15px;text-align:left;">
+                    <table border="0" cellspacing="0" cellpadding="0">
+                        <tr><td style="line-height:10px;">&nbsp;</td></tr>
+                        %(materials)s
+                        <tr><td style="line-height:20px;">&nbsp;</td></tr>
+                        <tr><td colspan="2" style="margin:0 20px;line-height:18px;">%(appendixs)s</td></tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

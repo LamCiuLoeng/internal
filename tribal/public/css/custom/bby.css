@@ -1,0 +1,205 @@
+#tabsJ {
+      float:left;
+      width:100%;
+      background:#F4F4F4;
+      font-size:93%;
+      line-height:normal;
+          border-bottom:1px solid #24618E;
+	  font: bold 11px/1.5em Verdana;
+      }
+
+#tabsJ ul {
+    margin:0;
+    padding:10px 10px 0 50px;
+    list-style:none;
+  }
+#tabsJ li {
+  display:inline;
+  margin:0;
+  padding:0;
+  }
+#tabsJ a {
+  float:left;
+  background:url("/images/tableftJ.gif") no-repeat left top;
+  margin:0;
+  padding:0 0 0 5px;
+  text-decoration:none;
+  }
+#tabsJ a span {
+  float:left;
+  display:block;
+  background:url("/images/tabrightJ.gif") no-repeat right top;
+  padding:5px 15px 4px 6px;
+  color:#24618E;
+  }
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#tabsJ a span {float:none;}
+/* End IE5-Mac hack */
+#tabsJ a:hover span {
+  color:#FFF;
+  }
+#tabsJ a:hover {
+  background-position:0% -42px;
+  }
+#tabsJ a:hover span {
+  background-position:100% -42px;
+  }
+
+    #tabsJ #current a {
+            background-position:0% -42px;
+    }
+    #tabsJ #current a span {
+            background-position:100% -42px;
+            color:#FFF;
+    }
+
+.btn {
+    background-color: #FFEEDD;
+    border-color: #669966 #336633 #336633 #669966;
+    border-style: solid;
+    border-width: 1px;
+    color: #005500;
+    font: bold 90% 'trebuchet ms',helvetica,sans-serif;
+}
+
+.xxinput{
+    background-color:#FFC;
+    border:#069 solid 1px;
+    width:150px;
+}
+
+.title-td{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: normal;
+	font-weight: bold;
+	color: #069;
+	text-decoration: none;
+	border-color: black;
+}
+
+.right-td{
+	text-align:right;
+	padding-right:10px;
+	
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: normal;
+	font-weight: bold;
+	color: #069;
+	text-decoration: none;
+}
+.biaoge1 {
+	border:#069 solid 1px;
+}
+
+.confirm{
+	background-color : yellow;
+}
+
+
+.date-session{
+	list-style : none;
+	padding-left : 0px;
+	margin : 0px;
+}
+
+.date-session li{
+	padding-bottom : 3px;
+}
+
+
+.div-todolist{
+	margin:10px 0px 0px 10px;
+	width:180px;
+	height:500px;
+	float:left;
+	border:#000 solid 2px;
+}
+.div-todolist p{
+	line-height:45px;
+	background-color:#060;
+
+}
+
+
+.div-todolist{
+    color: #000000;
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: 12px;	
+}
+
+.todoliset-menu {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: normal;
+	font-weight: bold;
+	color: #FFF;
+	text-decoration: none;
+	margin:20px 20px 0px 20px;
+}
+
+
+.div-todolis a:link {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: normal;
+	color: #506E86;
+	text-decoration: underline;
+}
+.div-todolis a:visited {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: normal;
+	color: #506E86;
+	text-decoration: underline;
+}
+.div-todolis a:hover {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: normal;
+	color: #066;
+	text-decoration: underline;
+}
+.div-todolis a:active {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: normal;
+	color: #066;
+	text-decoration: underline;
+}
+
+.div-todolis a.logout:link {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: normal;
+	color: #FFC;
+	text-decoration: underline;
+}
+.div-todolis a.logout:visited {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: normal;
+	color: #FFC;
+	text-decoration: underline;
+}
+.div-todolis a.logout:hover {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: normal;
+	color: #fff;
+	text-decoration: underline;
+}
+.div-todolis a.logout:active {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: normal;
+	color: #fff;
+	text-decoration: underline;
+}
+
+
+
+.eol{
+	background-color: #ccffcc;
+}

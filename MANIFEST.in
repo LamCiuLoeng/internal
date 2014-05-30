@@ -1,0 +1,4 @@
+recursive-include tribal/public *
+include tribal/public/favicon.ico
+recursive-include tribal/i18n *
+recursive-include tribal/templates *
